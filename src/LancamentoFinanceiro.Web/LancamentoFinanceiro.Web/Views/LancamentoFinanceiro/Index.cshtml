@@ -1,0 +1,107 @@
+﻿@model IEnumerable<LancamentoFinanceiro.Business.Models.Lancamento>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<p>
+    <a asp-action="Create" class="btn btn-outline-primary">Novo lançamento</a>
+</p>
+
+@if (TempData["Erro"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        Ops! ocorreu um erro, tente novamente!
+    </div>
+
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayName("Data Lançamento")
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Valor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataLancamento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Valor)
+                </td>
+                <td>
+                    @if (item.Tipo == 1)
+                    {
+                        <span>Débito</span>
+                    }
+                    else
+                    {
+                        <span>Crédito</span>
+                    }
+
+                </td>
+                <td>
+
+                    @if (item.Status == 1)
+                    {
+                        <span>Não conciliado</span>
+                    }
+                    else
+                    {
+                        <span>Conciliado</span>
+                    }
+                </td>
+                <td>
+                    @if (item.Status == 2)
+                    {
+                        <span data-toggle="tooltip" data-placement="top" title="Lançamento já conciliado">
+                            <a href="" class="conciliado btn btn-outline-secondary">Editar</a>
+                        </span>
+                    }
+                    else
+                    {
+                        @Html.ActionLink("Editar", "Edit", new { id = item.Id }, new { @class = "btn btn-outline-secondary" })
+                    }
+
+                    | @Html.ActionLink("Detalhe", "Details", new { id = item.Id }, new { @class = "btn btn-outline-info" }) |
+
+                    @if (item.Status == 2)
+                    {
+
+                        <span data-toggle="tooltip" data-placement="top" title="Lançamento já conciliado">
+                            <a href="" class="conciliado btn btn-outline-danger">Deletar</a>
+                        </span>
+
+                    }
+                    else
+                    {
+                        @Html.ActionLink("Deletar", "Delete", new { id = item.Id }, new { @class = "btn btn-outline-danger" });
+                    }
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

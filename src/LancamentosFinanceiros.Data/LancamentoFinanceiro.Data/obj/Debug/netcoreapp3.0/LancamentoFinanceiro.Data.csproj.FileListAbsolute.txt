@@ -1,0 +1,11 @@
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Data\LancamentoFinanceiro.Data\bin\Debug\netcoreapp3.0\LancamentoFinanceiro.Data.deps.json
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Data\LancamentoFinanceiro.Data\bin\Debug\netcoreapp3.0\LancamentoFinanceiro.Data.dll
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Data\LancamentoFinanceiro.Data\bin\Debug\netcoreapp3.0\LancamentoFinanceiro.Data.pdb
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Data\LancamentoFinanceiro.Data\obj\Debug\netcoreapp3.0\LancamentoFinanceiro.Data.csprojAssemblyReference.cache
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Data\LancamentoFinanceiro.Data\obj\Debug\netcoreapp3.0\LancamentoFinanceiro.Data.AssemblyInfoInputs.cache
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Data\LancamentoFinanceiro.Data\obj\Debug\netcoreapp3.0\LancamentoFinanceiro.Data.AssemblyInfo.cs
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Data\LancamentoFinanceiro.Data\obj\Debug\netcoreapp3.0\LancamentoFinanceiro.Data.dll
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Data\LancamentoFinanceiro.Data\obj\Debug\netcoreapp3.0\LancamentoFinanceiro.Data.pdb
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Data\LancamentoFinanceiro.Data\bin\Debug\netcoreapp3.0\LancamentoFinanceiro.Business.dll
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Data\LancamentoFinanceiro.Data\bin\Debug\netcoreapp3.0\LancamentoFinanceiro.Business.pdb
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Data\LancamentoFinanceiro.Data\obj\Debug\netcoreapp3.0\LancamentoFinanceiro.Data.csproj.CopyComplete

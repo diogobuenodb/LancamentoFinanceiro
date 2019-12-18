@@ -1,0 +1,75 @@
+﻿@model IEnumerable<LancamentoFinanceiro.Web.Models.BalancoDia>
+
+@{
+    ViewData["Title"] = "RelatorioMensal";
+}
+
+<h1>Relatório Mensal</h1>
+@if (TempData["Erro"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        Ops! ocorreu um erro, tente novamente!
+    </div>
+
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayName("Data do Balanço")
+            </th>
+            <th>
+                @Html.DisplayName("Valor Total Crédito")
+            </th>
+            <th>
+                @Html.DisplayName("Valor Total Débito")
+            </th>
+            <th>
+                @Html.DisplayName("Valor Saldo")
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+
+            @if (!item.Totalizacao)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DatadoBalanco)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ValorTotalCredito)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ValorTotalDebito)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ValorSaldo)
+                    </td>
+                </tr>
+            }
+            else
+            {
+                <tr class="table-primary">
+                    <td>
+                        <span>Totalização mensal</span>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ValorTotalCredito)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ValorTotalDebito)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ValorSaldo)
+                    </td>
+                </tr>
+            }
+
+        }
+    </tbody>
+</table>

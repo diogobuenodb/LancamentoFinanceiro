@@ -1,0 +1,16 @@
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Api\LancamentosFinanceiros.Api\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Api\LancamentosFinanceiros.Api\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Api\LancamentosFinanceiros.Api\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Api\LancamentosFinanceiros.Api\bin\Debug\netcoreapp2.2\LancamentosFinanceiros.Api.deps.json
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Api\LancamentosFinanceiros.Api\bin\Debug\netcoreapp2.2\LancamentosFinanceiros.Api.runtimeconfig.json
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Api\LancamentosFinanceiros.Api\bin\Debug\netcoreapp2.2\LancamentosFinanceiros.Api.runtimeconfig.dev.json
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Api\LancamentosFinanceiros.Api\bin\Debug\netcoreapp2.2\LancamentosFinanceiros.Api.dll
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Api\LancamentosFinanceiros.Api\bin\Debug\netcoreapp2.2\LancamentosFinanceiros.Api.pdb
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Api\LancamentosFinanceiros.Api\obj\Debug\netcoreapp2.2\LancamentosFinanceiros.Api.csprojAssemblyReference.cache
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Api\LancamentosFinanceiros.Api\obj\Debug\netcoreapp2.2\LancamentosFinanceiros.Api.RazorAssemblyInfo.cache
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Api\LancamentosFinanceiros.Api\obj\Debug\netcoreapp2.2\LancamentosFinanceiros.Api.RazorAssemblyInfo.cs
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Api\LancamentosFinanceiros.Api\obj\Debug\netcoreapp2.2\LancamentosFinanceiros.Api.AssemblyInfoInputs.cache
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Api\LancamentosFinanceiros.Api\obj\Debug\netcoreapp2.2\LancamentosFinanceiros.Api.AssemblyInfo.cs
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Api\LancamentosFinanceiros.Api\obj\Debug\netcoreapp2.2\LancamentosFinanceiros.Api.RazorTargetAssemblyInfo.cache
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Api\LancamentosFinanceiros.Api\obj\Debug\netcoreapp2.2\LancamentosFinanceiros.Api.dll
+C:\Diogo\TesteITAU\LancamentosFinanceiros\src\LancamentosFinanceiros.Api\LancamentosFinanceiros.Api\obj\Debug\netcoreapp2.2\LancamentosFinanceiros.Api.pdb
